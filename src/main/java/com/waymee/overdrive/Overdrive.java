@@ -1,6 +1,7 @@
 package com.waymee.overdrive;
 
 import com.waymee.overdrive.block.ModBlocks;
+import com.waymee.overdrive.item.ModCreativeModeTabs;
 import com.waymee.overdrive.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -37,6 +38,7 @@ public class Overdrive {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 

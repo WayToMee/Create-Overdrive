@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "C": {
+      "item": "create:cogwheel"
+    },
+    "A": {
+      "item": "overdrive:analog_control_circuit"
+    },
+    "S": {
+      "item": "create:shaft"
+    }
+  },
+  "pattern": [
+    " B ",
+    "CAC",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "overdrive:steering_wheel"
+  }
+}
