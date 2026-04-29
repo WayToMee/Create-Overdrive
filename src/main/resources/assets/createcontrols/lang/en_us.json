@@ -1,7 +1,11 @@
 {
   "itemGroup.examplemod": "Example Mod Tab",
   "block.examplemod.example_block": "Example Block",
-  "item.examplemod.example_item": "Example Item",
+
+  "block.overdrive.cockpit": "Cockpit",
+  "item.overdrive.analog_control_circuit": "Analog Control Circuit",
+  "item.overdrive.steering_wheel": "Steering Wheel",
+
 
   "examplemod.configuration.title": "Example Mod Configs",
   "examplemod.configuration.section.examplemod.common.toml": "Example Mod Configs",
