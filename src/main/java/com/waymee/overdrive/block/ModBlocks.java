@@ -1,6 +1,7 @@
 package com.waymee.overdrive.block;
 
 import com.waymee.overdrive.Overdrive;
+import com.waymee.overdrive.block.cockpit.CockpitBlock;
 import com.waymee.overdrive.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -18,8 +19,8 @@ public class ModBlocks {
             DeferredRegister.createBlocks(Overdrive.MOD_ID);
 
     public static final DeferredBlock<Block> COCKPIT = registerBlock("cockpit",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+            () -> new CockpitBlock(BlockBehaviour.Properties.of()
+                    .noOcclusion().strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
 
 
 

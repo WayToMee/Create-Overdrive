@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "overdrive:block/cockpit"
-  }
+  "parent": "overdrive:block/cockpit"
 }

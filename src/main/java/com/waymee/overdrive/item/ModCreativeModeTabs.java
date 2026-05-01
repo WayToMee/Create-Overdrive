@@ -20,7 +20,9 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.COCKPIT.get()))
                     .title(Component.translatable("creativetab.overdrive.overdrive_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
+
                         output.accept(ModBlocks.COCKPIT);
+
                         output.accept(ModItems.ANALOG_CONTROL_CIRCUIT);
                         output.accept(ModItems.STEERING_WHEEL);
 
