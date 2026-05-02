@@ -1,8 +1,19 @@
 {
   "variants": {
-    "": {
-      "model": "overdrive:block/cockpit"
+    "facing=north": {
+      "model": "overdrive:block/cockpit/block"
+    },
+    "facing=east": {
+      "model": "overdrive:block/cockpit/block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "overdrive:block/cockpit/block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "overdrive:block/cockpit/block",
+      "y": 270
     }
   }
-
 }

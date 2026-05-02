@@ -22,8 +22,6 @@ public class ModBlocks {
             () -> new CockpitBlock(BlockBehaviour.Properties.of()
                     .noOcclusion().strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
 
-
-
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
@@ -34,7 +32,7 @@ public class ModBlocks {
         ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
     }
 
-    public static void  register(IEventBus eventBus) {
+    public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
     }
 }
